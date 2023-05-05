@@ -1,11 +1,14 @@
 .ancho-navegable{
     max-width: 800px;
+    .cocina{
+        height: 100px;
+    }
+    .typo-titulo{
+        font-family: $typo-titulo;
+    }
     .navbar-collapse{
     flex-direction: row-reverse;
 }
 
 
-}
-.cocina{
-    height: 100px;
 }
