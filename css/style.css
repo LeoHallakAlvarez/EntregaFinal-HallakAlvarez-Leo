@@ -1,8 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Instrument+Serif&family=Raleway:ital,wght@0,400;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Raleway:ital,wght@0,400;0,900;1,700&family=Roboto:ital,wght@0,900;1,700&display=swap");
 .ancho-navegable {
   max-width: 800px; }
+  .ancho-navegable .cocina {
+    height: 100px;
+    width: 150px; }
+  .ancho-navegable .typo-titulo {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold; }
   .ancho-navegable .navbar-collapse {
     flex-direction: row-reverse; }
-
-.cocina {
-  height: 100px; }
+    .ancho-navegable .navbar-collapse .nav-link:hover {
+      text-decoration: underline; }
