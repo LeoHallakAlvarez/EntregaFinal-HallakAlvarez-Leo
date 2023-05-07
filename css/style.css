@@ -28,4 +28,5 @@
 
 .footer img {
   display: flex;
-  width: 150px; }
+  width: 150px;
+  background-size: auto; }
