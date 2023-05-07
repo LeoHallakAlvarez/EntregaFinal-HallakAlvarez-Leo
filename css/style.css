@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Raleway:ital,wght@0,400;0,900;1,700&family=Roboto:ital,wght@0,900;1,700&display=swap");
+.barra {
+  background-color: #312d31 !important; }
+
 .ancho-navegable {
   max-width: 800px; }
   .ancho-navegable .cocina {
@@ -11,3 +14,18 @@
     flex-direction: row-reverse; }
     .ancho-navegable .navbar-collapse .nav-link:hover {
       text-decoration: underline; }
+
+.main img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  background-size: cover; }
+
+.footer {
+  background-color: #854e4e;
+  height: 20vh;
+  text-align: center; }
+
+.footer img {
+  display: flex;
+  width: 150px; }

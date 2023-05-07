@@ -1,4 +1,7 @@
 //NAVBAR//
+.barra{
+    background-color: rgb(49, 45, 49) !important ;
+}
 .ancho-navegable{
     max-width: 800px;
     .cocina{
@@ -20,3 +23,23 @@
     
 }
 
+
+.main img{
+display: flex;
+flex-wrap: wrap;
+width: 900px;
+background-size: cover;
+}
+
+
+.footer{
+    background-color: rgb(133, 78, 78);
+    height: 20vh;
+    text-align: center;
+}
+
+.footer img{
+    display: flex;
+    width: 150px;
+  
+}
