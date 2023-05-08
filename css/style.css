@@ -66,12 +66,6 @@
 .barra {
   background-color: #312d31 !important; }
 
-.footer {
+.ubicacion {
   background-color: #854e4e;
-  height: 20vh;
-  text-align: center; }
-
-.footer img {
-  display: flex;
-  width: 150px;
-  background-size: auto; }
+  align-items: center; }
