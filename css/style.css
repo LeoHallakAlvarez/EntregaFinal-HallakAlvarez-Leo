@@ -30,3 +30,48 @@
   display: flex;
   width: 150px;
   background-size: auto; }
+
+.barra {
+  background-color: #312d31 !important; }
+
+.h1 {
+  background-color: #0b9992;
+  color: white;
+  font-weight: bold;
+  text-align: center; }
+
+.chica {
+  max-width: 800px;
+  max-height: 600px;
+  background-image: none;
+  margin: 150px; }
+
+.footer {
+  background-color: black;
+  color: white; }
+
+.barra {
+  background-color: #312d31 !important; }
+
+.footer {
+  background-color: #854e4e;
+  height: 20vh;
+  text-align: center; }
+
+.footer img {
+  display: flex;
+  width: 150px;
+  background-size: auto; }
+
+.barra {
+  background-color: #312d31 !important; }
+
+.footer {
+  background-color: #854e4e;
+  height: 20vh;
+  text-align: center; }
+
+.footer img {
+  display: flex;
+  width: 150px;
+  background-size: auto; }

@@ -3,16 +3,23 @@
  }    
 
 
+//main-restaurant//
 
- .footer{
-    background-color: rgb(133, 78, 78);
-    height: 20vh;
-    text-align: center;
+.h1{
+background-color: rgb(11, 153, 146);
+color: white;
+font-weight: bold;
+text-align: center;
+ }
+
+.chica{
+    max-width: 800px;
+    max-height: 600px;
+    background-image: none;
+    margin: 150px;
 }
 
-.footer img{
-    display: flex;
-    width: 150px;
-    background-size: auto;
-  
+.footer{
+    background-color: black;
+    color: white;
 }
