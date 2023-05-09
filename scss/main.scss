@@ -6,6 +6,10 @@ fondo secundario: #fabc3c;
 resaltar:#c45baa;
 */
 
+//Variables//
+$typo-titulo: black;
+$cielo: #00ffff ;
+
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +27,7 @@ resaltar:#c45baa;
 //scss header index + anidaciones//
 
 .footer{
-    background-color: rgb(133, 78, 78);
+    background-color: $cielo;
     height: 20vh;
     text-align: center;
     .footer img{
