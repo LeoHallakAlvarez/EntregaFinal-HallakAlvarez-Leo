@@ -1,3 +1,18 @@
+/* PALETA DE COLORES 
+color principal: #086788;
+color secundario: #ff007f;
+fondo primario: #7209b7;
+fondo secundario: #fabc3c;
+resaltar:#c45baa;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
 @import "./utilities/typo";
 @import "./section/header";
 @import "./section/Restaurant";
