@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* PALETA DE COLORES 
 color principal: #086788;
 color secundario: #ff007f;
@@ -97,3 +98,28 @@ resaltar:#c45baa;
   align-items: center;
   border-radius: 20px;
   transform: 1.05; }
+
+.footer {
+  background-color: #854e4e;
+  height: 20vh;
+  text-align: center; }
+  .footer .footer img {
+    display: flex;
+    width: 150px;
+    background-size: auto; }
+
+.barra {
+  background-color: #312d31 !important; }
+
+.tamaño {
+  width: 100%;
+  height: 800px; }
+
+chica {
+  max-width: 800px;
+  max-height: 600px;
+  background-image: none;
+  margin: 150px; }
+  chica .footer {
+    background-color: black;
+    color: white; }
