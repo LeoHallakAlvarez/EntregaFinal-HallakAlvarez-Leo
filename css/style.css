@@ -15,7 +15,8 @@ resaltar:#c45baa;
   background-color: #312d31 !important; }
 
 .ancho-navegable {
-  max-width: 800px; }
+  max-width: 800px;
+  text-align: center; }
   .ancho-navegable .cocina {
     height: 100px;
     width: 150px; }
@@ -26,6 +27,9 @@ resaltar:#c45baa;
     flex-direction: row-reverse; }
     .ancho-navegable .navbar-collapse .nav-link:hover {
       text-decoration: underline; }
+
+.nav-link a {
+  color: aqua; }
 
 .main img {
   display: flex;
@@ -79,8 +83,17 @@ resaltar:#c45baa;
   background-color: #312d31 !important; }
 
 .ubicacion {
-  background-color: #854e4e;
-  align-items: center; }
+  background-color: #854e4e; }
   .ubicacion .video {
     width: 300px;
     height: 300px; }
+
+.form {
+  display: flex; }
+
+.btn.btn-primary {
+  background-color: black;
+  box-shadow: 5px 6px 7px rgb black inset;
+  align-items: center;
+  border-radius: 20px;
+  transform: 1.05; }
