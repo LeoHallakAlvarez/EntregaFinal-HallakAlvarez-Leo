@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* PALETA DE COLORES 
 color principal: #086788;
 color secundario: #ff007f;
@@ -13,7 +12,7 @@ resaltar:#c45baa;
   font-family: 'Courier New', Courier, monospace; }
 
 .barra {
-  background-color: #312d31 !important; }
+  background-color: #db37db !important; }
 
 .ancho-navegable {
   max-width: 800px;
@@ -23,13 +22,15 @@ resaltar:#c45baa;
     width: 150px; }
   .ancho-navegable .typo-titulo {
     font-family: "Raleway", sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    color: white; }
   .ancho-navegable .navbar-collapse {
     flex-direction: row-reverse; }
     .ancho-navegable .navbar-collapse .nav-link:hover {
       text-decoration: underline; }
 
-.nav-link a {
+.colapso {
+  font-weight: bold;
   color: aqua; }
 
 .main img {
@@ -39,7 +40,7 @@ resaltar:#c45baa;
   background-size: cover; }
 
 .footer {
-  background-color: #854e4e;
+  background-color: #bb328d;
   height: 20vh;
   text-align: center; }
 
@@ -49,7 +50,7 @@ resaltar:#c45baa;
   background-size: auto; }
 
 .barra {
-  background-color: #312d31 !important; }
+  background-color: #db37db !important; }
 
 .h1 {
   background-color: #0b9992;
@@ -68,7 +69,7 @@ resaltar:#c45baa;
   color: white; }
 
 .barra {
-  background-color: #312d31 !important; }
+  background-color: #db37db !important; }
 
 .footer {
   background-color: #854e4e;
@@ -81,7 +82,7 @@ resaltar:#c45baa;
   background-size: auto; }
 
 .barra {
-  background-color: #312d31 !important; }
+  background-color: #db37db !important; }
 
 .ubicacion {
   background-color: #854e4e; }
@@ -100,8 +101,11 @@ resaltar:#c45baa;
   transform: 1.05; }
 
 .footer {
+  min-height: 20vh; }
+
+.footer {
   background-color: #00ffff;
-  height: 20vh;
+  min-height: 20vh;
   text-align: center; }
   .footer .footer img {
     display: flex;
@@ -109,11 +113,19 @@ resaltar:#c45baa;
     background-size: auto; }
 
 .barra {
-  background-color: #312d31 !important; }
+  background-color: #bb328d !important; }
 
-.tamaño {
-  width: 100%;
-  height: 800px; }
+.fondo {
+  background-color: #cb819a; }
+
+.plato {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.cuerpo {
+  background-color: chocolate;
+  color: aqua; }
 
 chica {
   max-width: 800px;
