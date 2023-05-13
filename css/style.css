@@ -52,8 +52,8 @@ resaltar:#c45baa;
   background-color: #db37db !important; }
 
 .h1 {
-  background-color: #0b9992;
-  color: white;
+  background-color: rgba(129, 44, 155, 0.466);
+  color: #0c90c4;
   font-weight: bold;
   text-align: center; }
 
@@ -134,3 +134,7 @@ chica {
   chica .footer {
     background-color: black;
     color: white; }
+
+.carta {
+  background-color: chocolate;
+  color: aqua; }
