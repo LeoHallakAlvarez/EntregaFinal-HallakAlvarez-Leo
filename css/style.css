@@ -46,8 +46,7 @@ resaltar:#c45baa;
 
 .footer img {
   display: flex;
-  width: 150px;
-  background-size: auto; }
+  flex-direction: column; }
 
 .barra {
   background-color: #db37db !important; }
@@ -105,7 +104,7 @@ resaltar:#c45baa;
 
 .footer {
   background-color: #00ffff;
-  min-height: 20vh;
+  min-height: 40vh;
   text-align: center; }
   .footer .footer img {
     display: flex;
