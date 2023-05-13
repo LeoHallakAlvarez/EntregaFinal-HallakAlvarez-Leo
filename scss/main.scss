@@ -19,7 +19,7 @@ $cielo: #00ffff ;
 
 @import "./utilities/typo";
 @import "./section/header";
-@import "./section/Restaurant";
+@import "./section/restaurant";
 @import "./section/sucursales";
 @import "./section/ubicacion";
 
@@ -45,6 +45,7 @@ $cielo: #00ffff ;
 .barra{
     background-color: rgb(187, 50, 141) !important ;
  }    
+
 
 .fondo{
     background-color: #cb819a;
