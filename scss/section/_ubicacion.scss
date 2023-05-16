@@ -2,14 +2,22 @@
     background-color: #db37db !important ;
  }    
 
+
+.image{
+    background-color: rgb(204, 91, 15);
+}
+
+
 .container-contact{
+    margin: 150px;
+    background-color: rgb(12, 144, 161);
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
     width: 400px;
     height: 440px;
-    background-color: black;
     border: 2px solid black;
     border-radius: 20px;
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 20px rgb(107, 18, 100);
     display: flex;
     justify-content: center;
     align-items: center;

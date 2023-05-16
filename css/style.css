@@ -33,9 +33,6 @@ resaltar:#c45baa;
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
-.rojo {
-  color: red; }
-
 .colapso {
   font-weight: bold;
   color: aqua; }
@@ -61,8 +58,10 @@ resaltar:#c45baa;
 .h1 {
   background-color: rgba(129, 44, 155, 0.466);
   color: #0c90c4;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  margin: 5px; }
 
 .chica {
   max-width: 800px;
@@ -90,14 +89,19 @@ resaltar:#c45baa;
 .barra {
   background-color: #db37db !important; }
 
+.image {
+  background-color: #cc5b0f; }
+
 .container-contact {
+  margin: 150px;
+  background-color: #0c90a1;
+  font-family: 'Times New Roman', Times, serif;
   position: relative;
   width: 400px;
   height: 440px;
-  background-color: black;
   border: 2px solid black;
   border-radius: 20px;
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 20px #6b1264;
   display: flex;
   justify-content: center;
   align-items: center; }
