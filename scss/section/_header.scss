@@ -5,6 +5,7 @@ background-color: #db37db !important;
 .ancho-navegable{
     max-width: 800px;
     text-align: center;
+ }
     .cocina{
         height: 100px;
         width: 150px;
@@ -20,10 +21,23 @@ background-color: #db37db !important;
             &:hover{
                 text-decoration: underline;
             }
-         }
+         
     }
     
 }
+
+
+.ul-index{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: fantasy;
+    font-weight: 900;
+    justify-content: space-evenly;
+    background-color: black ;
+    color: blueviolet;
+}
+
 
 .bold{
     font-weight: bold;
@@ -58,4 +72,3 @@ background-size: cover;
 }
 
 
- 
