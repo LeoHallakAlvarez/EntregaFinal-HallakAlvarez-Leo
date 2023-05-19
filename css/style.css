@@ -25,7 +25,9 @@ resaltar:#c45baa;
 .typo-titulo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  color: white; }
+  color: white;
+  transition: 5s;
+  transform: scale(1.5); }
 
 .navbar-collapse {
   flex-direction: row-reverse; }
@@ -106,7 +108,7 @@ resaltar:#c45baa;
   background-color: #cc5b0f; }
 
 .container-contact {
-  margin: 150px;
+  margin: 20px;
   background-color: #0c90a1;
   font-family: 'Times New Roman', Times, serif;
   position: relative;
@@ -124,12 +126,15 @@ resaltar:#c45baa;
 
 .footer {
   background-color: #00ffff;
-  min-height: 40vh;
+  min-height: 30vh;
   text-align: center; }
   .footer .footer img {
     display: flex;
     width: 150px;
     background-size: auto; }
+
+.small {
+  color: #fd11ea; }
 
 .barra {
   background-color: #bb328d !important; }
@@ -139,8 +144,8 @@ resaltar:#c45baa;
 
 .plato {
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: row;
+  align-items: stretch; }
 
 .cuerpo {
   background-color: chocolate;
@@ -158,3 +163,16 @@ chica {
 .carta {
   background-color: chocolate;
   color: aqua; }
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 20px;
+  width: 40px; }
+
+a.nav-link.active {
+  color: white; }
+
+.nav-link {
+  color: white; }
