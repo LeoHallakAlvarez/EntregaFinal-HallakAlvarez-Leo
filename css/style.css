@@ -25,6 +25,7 @@ resaltar:#c45baa;
 .typo-titulo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  margin: 50px;
   color: white;
   transition: 5s;
   transform: scale(1.5); }
@@ -108,7 +109,7 @@ resaltar:#c45baa;
   background-color: #cc5b0f; }
 
 .container-contact {
-  margin: 20px;
+  margin: 5px;
   background-color: #0c90a1;
   font-family: 'Times New Roman', Times, serif;
   position: relative;
@@ -170,9 +171,6 @@ chica {
   justify-content: left;
   height: 20px;
   width: 40px; }
-
-a.nav-link.active {
-  color: white; }
 
 .nav-link {
   color: white; }
